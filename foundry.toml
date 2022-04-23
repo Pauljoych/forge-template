@@ -1,0 +1,11 @@
+[default]
+src = 'src'
+test = 'test'
+out = 'out'
+libs = ['lib']
+remappings = [
+    "forge-std/=lib/forge-std/src",
+]
+
+[ci]
+fuzz-runs = 10_000
